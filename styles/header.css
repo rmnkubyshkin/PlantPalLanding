@@ -1,0 +1,55 @@
+
+.header {
+  display: flex;
+  background-color:var(--normal-green);
+  justify-content: space-between;
+  margin-left: -160px;
+  box-sizing: border-box;
+  width: 1440px;
+}
+
+.header__menu {
+  display: inline-flex;
+  justify-self: end;
+  align-self: center;
+  flex-wrap: nowrap;
+  margin: 65px 80px 65px 0;
+}
+
+.header__links-list {
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: space-between;
+  column-gap: 48px;
+  flex-wrap: nowrap;
+}
+
+.header__links-list-item {
+  font-family: "MontserratBold";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;  
+  color: var(--text-color);
+}
+
+.header__links-list-item-accentuated {
+  font-family: "MontserratBold";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: left;
+  color:  var(--active-green);
+}
+
+.header__logo {
+  max-width: 186px;
+  margin-top: 4px;
+  margin-left: 83px;
+  align-self: center;
+
+}
+
+.header__logo_image {
+
+}
