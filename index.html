@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plant Pal - твой виртуальный помощник по уходу за растениями</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <header class="header">
       <a class="header__logo" href="http://127.0.0.1:5500/">
-        <img class="header__logo_image"
-            src="./images/logo_plantpal.png"
+        <img src="./images/logo_plantpal.png"
             alt="Логотип сайта с надписью 'Plant Pal'">
       </a>
       <nav class="header__menu">
@@ -38,26 +37,27 @@
       <section class="cover">
         <ul class="cover__list">
           <li class="cover__list-element">
-            <img class="cover__title" src="./images/logo_plantpal.png">
+            <img class="cover__title" src="./images/logo_plantpal.png"
+              alt="Логотип приложения PlantPal">
           </li>
           <li class="cover__list-element">
             <h1 class="cover__tagline cover__tagline-text">
               Твой виртуальный помощник по уходу за растениями 
             </h1>
-          </li class="cover__list-element">
-          <li class="cover__button">
-            <a href="#button">
+          </li>
+          <li class="cover__list-element cover__button">
               <button class="cover__button-shape cover__button-text">
                 Перейти в приложение
               </button>
-            </a>
           </li>
         </ul>
-        <img class="cover__image" src="./images/screen_1.png" alt="">
+        <img class="cover__image" src="./images/screen_1.png" alt="Начальный экран приложения">
       </section>
-      <article class="features__about">
-        <img class="features__about-image-front" src="./images/screen_2.2.png" alt="">
-        <img class="features__about-image-back" src="./images/screen_2.1.png" alt="">
+      <div class="features__about">
+        <img class="features__about-image-front" src="./images/screen_2.2.png" 
+              alt="Экран приложения с профилем пользователя">
+        <img class="features__about-image-back" src="./images/screen_2.1.png" 
+            alt="Экран приложения с информацией о растении">
         <ul class="features__list-about">
           <li class="features__title-about cover__tagline-text">
             Узнай больше о растениях
@@ -67,11 +67,11 @@
             и делиться опытом с единомышленниками
           </li>
           <li class="features__image">
-            <img src="./images/shelf.png"  alt="">
+            <img src="./images/shelf.png"  alt="Полка, накоторой стоят растения в горшках">
           </li>
         </ul>
-      </article>
-      <article class="features__virtual-garden">
+      </div>
+      <div class="features__virtual-garden">
         <ul class="features__list-virtual-garden">
           <li class="features__title-about features__title-virtual-garden cover__tagline-text">
             Теперь растения будут в твоем саду
@@ -82,12 +82,72 @@
             сможешь следить за состоянием своих цветов
           </li>
         </ul>
-        <img class="features__virtual-garden-image-left" src="./images/screen_3.1.png" alt="">
-        <img class="features__virtual-garden-image-right" src="./images/screen_3.2.png" alt="">
-      </article>
+        <img class="features__virtual-garden-image-left" src="./images/screen_3.1.png" 
+              alt="Экран приложения с растениями виртуального сада">
+        <img class="features__virtual-garden-image-right" src="./images/screen_3.2.png" 
+              alt="Экран приложения, настройки виртуального сада">
+      </div>
+      <div class="features__camera-finder">
+        <ul class="features__list-camera-finder">
+          <li class="features__title-about features__title-camera-finder cover__tagline-text">
+            Идентификация растений
+            <br>по фото 
+          </li>
+          <li class="features__tagline cover__button-text">
+            Находи растение сразу же и у тебя будет
+            <br>крутая подсказка по уходу.
+          </li>
+          <li>
+            <img class="features__camera-finder-image-bottom" src="./images/flowers.png" 
+                  alt="Несколько растений в горшках стоят на стульях">
+          </li>
+        </ul>
+        <img class="features__camera-finder-image-left" src="./images/screen_4.png" 
+              alt="Экран приложения для определения растения через камеру телефона">
+      </div>
     </main>
     <footer class="footer">
-    
+      <a class="footer__logo" href="http://127.0.0.1:5500/">
+        <img src="./images/logo_plantpal.png"
+            alt="Логотип сайта с надписью 'Plant Pal'">
+      </a>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="header__links-list-item">
+            Главная
+          </li>
+          <li class="header__links-list-item">
+            О приложении
+          </li>
+          <li class="header__links-list-item">
+            Преимущества
+          </li>
+          <li class="header__links-list-item
+                    header__links-list-item-accentuated">
+            Скачать
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__outer-links">
+        <ul class="footer__outer-links-list">
+          <li>
+            <a href="#applestoreplant">
+            <img src="./images/appstore.png" alt="Баннер для скачивания приложения с appstore">
+            </a>
+          </li>
+          <li>
+            <a href="#googleplant">
+              <img src="./images/googleplay.png" alt="Баннер для скачивания приложения с google play">
+            </a>
+          </li>
+          <li>
+            <a href="#tgplantpal">
+              <img class="footer__item-telegram"
+                src="./images/telegram.png" alt="Ссылка на приложение в telegram messanger">
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

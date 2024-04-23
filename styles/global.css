@@ -6,7 +6,7 @@
 :root {
   --active-green: rgba(92, 174, 71, 0.9);
   --normal-green: rgba(78, 139, 62, 0.3);
-  --bloced-green: rgba(217, 217, 217, 1);
+  --bloced-gray: rgba(217, 217, 217, 1);
   --text-color: black;
 }
 body {
